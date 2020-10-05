@@ -1,0 +1,35 @@
+.products {
+    padding: 60px;
+    background: white;
+}
+
+.products > h1 {
+    text-align: center;
+    color: orangered;
+}
+
+.products-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 900px;
+    width: 90%;
+    margin: 0 auto;
+    scroll-behavior: auto;
+}
+
+.products-wrapper {
+    position: relative;
+    margin: 50px 0 45px;
+}
+
+.products-item {
+    margin-bottom: 32px;
+}
+
+@media only screen and (min-width: 1000px) {
+    .products-item {
+        display: flex;
+    }
+}
+

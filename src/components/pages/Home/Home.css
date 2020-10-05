@@ -1,0 +1,191 @@
+image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+.home-container {
+    background: url('/image/fishing-rod.jpg') center center/cover no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);;
+}
+
+
+.home-container > h1 {
+    color: orangered;
+    font-size: 100px;
+    margin-top: -100px;
+    text-shadow: 2px 2px black;
+    filter: brightness(120%);
+}
+
+.home-container > p {
+    color: orangered;
+    font-size: 32px;
+    margin-top: 8px;
+    text-shadow: 2px 2px black;
+    filter: brightness(120%);
+
+}
+
+.button {
+    margin-top: 15px;
+    font-size: 20px;
+    color: orangered;
+    background: transparent;
+    border: 2px solid orangered;
+    padding: 8px 15px;
+    text-shadow: 2px 2px black;
+    cursor: pointer;
+    filter: brightness(120%);
+}
+
+.button:hover {
+    color: white;
+    border: 2px solid white;
+    text-shadow: 2px 1px black;
+    text-decoration: none;
+}
+
+.button > a {
+    color: orangered;
+    text-decoration: none;
+}
+
+.button > a:hover {
+    color: white;
+}
+
+@media (max-width: 1500px) {
+    .home-container > h1 {
+        font-size: 90px;
+        margin-top: -200px;
+    }
+}
+
+@media (max-width: 1360px) {
+    .home-container > h1 {
+        font-size: 85px;
+        margin-top: -190px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .home-container > h1 {
+        font-size: 70px;
+        margin-top: -180px;
+    }
+}
+
+@media (max-width: 1080px) {
+    .home-container > h1 {
+        font-size: 60px;
+        margin-top: -170px;
+    }
+}
+
+@media (max-width: 940px) {
+    .home-container > h1 {
+        font-size: 50px;
+        margin-top: -155px;
+    }
+
+    .home-container > p {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 800px) {
+    .home-container > h1 {
+        font-size: 45px;
+        margin-top: -140px;
+    }
+
+    .home-container > p {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 700px) {
+    .home-container > h1 {
+        font-size: 40px;
+        margin-top: -100px;
+    }
+
+    .home-container > p {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 650px) {
+    .home-container > h1 {
+        font-size: 40px;
+        text-align: center;
+        margin-top: -80px;
+    }
+
+    .home-container > p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .home-container > h1 {
+        font-size: 32px;
+        text-align: center;
+        margin-top: -40px;
+    }
+
+    .home-container > p {
+        font-size: 16px;
+    }
+
+    .home-container > button {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 450px) {
+    .home-container > h1 {
+        font-size: 36px;
+        margin-top: -20px;
+        text-align: center;
+    }
+
+    .home-container > p {
+        font-size: 18px;
+    }
+
+    .home-container > button {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 350px) {
+    .home-container > h1 {
+        font-size: 20px;
+        margin-top: 5px;
+    }
+
+    .home-container > p {
+        font-size: 14px;
+    }
+
+    .home-container > button {
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+

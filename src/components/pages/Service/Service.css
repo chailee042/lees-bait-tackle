@@ -1,0 +1,96 @@
+.service-container {
+    background: url('/image/pier.jpg') center center/cover no-repeat;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.service-wrap {
+    display: flex;
+    flex-direction: column;
+    color: orangered;
+    text-shadow: 1px 1px black;
+}
+
+.service-wrap > h1 {
+    font-size: 70px;
+}
+
+.service-wrap > h2 {
+    font-size: 60px;
+    margin: 10px;
+}
+
+.service-wrap > h4 {
+    font-size: 20px;
+    margin: 8px;
+}
+
+.para {
+    display: flex;
+    width: 100%;
+    padding: 15px;
+    margin: 10px;
+    font-size: 35px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-left: 20px;
+}
+
+@media (max-width: 700px) {
+    .service-wrap > h1 {
+        font-size: 3rem;
+    }
+
+    .service-wrap > h2 {
+        font-size: 2rem;
+    }
+
+    .para {
+        flex-direction: column;
+        font-size: 20px;
+        padding: 15px;
+        margin: 8px;
+    }
+}
+
+@media (max-width: 450px) {
+    .service-wrap > h1 {
+        font-size: 1.8rem;
+        padding-top: 20px;
+    }
+
+    .service-wrap > h2 {
+        font-size: 1.6rem;
+    }
+
+    .service-wrap > h4 {
+        font-size: 16px;
+        margin-bottom: 20px;
+        margin: 8px 16px;
+    } 
+
+    .para {
+        flex-direction: column;
+        font-size: 18px;
+        margin: auto;
+        padding: 15px;
+    }
+
+    p {
+        margin: 8px;
+    }
+}
+
+
+
+
+
+
+
