@@ -1,5 +1,7 @@
 import React from 'react';
 import './BoxItem.css';
+import { Link } from 'react-router-dom';
+
 
 function BoxItem(props) {
     return (
@@ -7,27 +9,23 @@ function BoxItem(props) {
             <li className="box-item">
                 <div className="box-border">
                     <div className="image-wrap">
-                        <a 
-                            href={props.href} 
-                            rel="noopener noreferrer" 
-                            target="_blank"
+                        <Link 
+                            to={props.to}
                         >
                         <img 
                             src={props.src} 
                             alt="tackle"
                             className="box-image-item"
                         />
-                        </a>
+                        </Link>
                     </div>
                     <div className="box-text-wrap">
-                        <a 
-                            href={props.href} 
-                            rel="noopener noreferrer" 
-                            target="_blank"
+                        <Link 
+                            to={props.to}
                             className="box-text-item"
                         >
                             {props.text}
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </li>
